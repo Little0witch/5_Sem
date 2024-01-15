@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab4
-Fri Dec 01 12:58:49 2023
+Mon Jan 15 18:44:26 2024
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -92,7 +92,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Fri Dec 01 12:58:49 2023   ;
+; Analysis & Synthesis Status   ; Successful - Mon Jan 15 18:44:26 2024   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; lab4                                    ;
 ; Top-level Entity Name         ; main                                    ;
@@ -201,72 +201,72 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                   ;
-+----------------------------------+-----------------+---------------------------------------+-----------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                                ;
-+----------------------------------+-----------------+---------------------------------------+-----------------------------------------------------------------------------+
-; device_control.bdf               ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/device_control.bdf     ;
-; main.bdf                         ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/main.bdf               ;
-; ROM.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/ROM.bdf                ;
-; RAM.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/RAM.bdf                ;
-; POH.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/POH.bdf                ;
-; rom.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/rom.hex                ;
-; ram.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/ram.hex                ;
-; ALU.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/ALU.bdf                ;
-; lpm_mux0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_mux0.tdf           ;
-; lpm_mux.inc                      ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_mux.inc               ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_mux.tdf               ;
-; db/mux_mpc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/mux_mpc.tdf         ;
-; lpm_mux3.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_mux3.tdf           ;
-; db/mux_unc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/mux_unc.tdf         ;
-; lpm_decode1.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_decode1.tdf        ;
-; lpm_decode.inc                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_decode.inc            ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_decode.tdf            ;
-; lpm_compare.inc                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_compare.inc           ;
-; db/decode_u7f.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/decode_u7f.tdf      ;
-; lpm_dff0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_dff0.tdf           ;
-; lpm_ff.inc                       ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_ff.inc                ;
-; lpm_ff.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_ff.tdf                ;
-; lpm_decode2.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_decode2.tdf        ;
-; db/decode_e9f.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/decode_e9f.tdf      ;
-; lpm_counter0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_counter0.tdf       ;
-; lpm_counter.inc                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_counter.inc           ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_counter.tdf           ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_add_sub.inc           ;
-; db/cntr_qlh.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/cntr_qlh.tdf        ;
-; lpm_counter1.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_counter1.tdf       ;
-; db/cntr_pki.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/cntr_pki.tdf        ;
-; lpm_add_sub3.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_add_sub3.tdf       ;
-; lpm_add_sub.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_add_sub.tdf           ;
-; db/add_sub_elh.tdf               ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/add_sub_elh.tdf     ;
-; lpm_dff1.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_dff1.tdf           ;
-; lpm_mux1.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_mux1.tdf           ;
-; db/mux_qnc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/mux_qnc.tdf         ;
-; lpm_bustri1.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_bustri1.tdf        ;
-; lpm_bustri.inc                   ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_bustri.inc            ;
-; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_bustri.tdf            ;
-; lpm_ram_dq0.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_ram_dq0.tdf        ;
-; altsyncram.inc                   ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/altsyncram.inc            ;
-; altsyncram.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/altsyncram.tdf            ;
-; db/altsyncram_4ba1.tdf           ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/altsyncram_4ba1.tdf ;
-; lpm_rom0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_rom0.tdf           ;
-; db/altsyncram_os61.tdf           ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/altsyncram_os61.tdf ;
-; lpm_mux2.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_mux2.tdf           ;
-; db/mux_cpc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/mux_cpc.tdf         ;
-; lpm_compare0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_compare0.tdf       ;
-; lpm_compare.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_compare.tdf           ;
-; db/cmpr_ahi.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/cmpr_ahi.tdf        ;
-; lpm_clshift0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_clshift0.tdf       ;
-; lpm_clshift.inc                  ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_clshift.inc           ;
-; lpm_clshift.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_clshift.tdf           ;
-; db/lpm_clshift_ehc.tdf           ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/db/lpm_clshift_ehc.tdf ;
-; lpm_bustri2.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_bustri2.tdf        ;
-; lpm_or0.tdf                      ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_or0.tdf            ;
-; lpm_or.inc                       ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_or.inc                ;
-; lpm_or.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_or.tdf                ;
-; lpm_decode0.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/БГУИР/танюша — копия/lab445/lpm_decode0.tdf        ;
-+----------------------------------+-----------------+---------------------------------------+-----------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                  ;
++----------------------------------+-----------------+---------------------------------------+----------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                               ;
++----------------------------------+-----------------+---------------------------------------+----------------------------------------------------------------------------+
+; device_control.bdf               ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/device_control.bdf     ;
+; main.bdf                         ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/main.bdf               ;
+; ROM.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/ROM.bdf                ;
+; RAM.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/RAM.bdf                ;
+; POH.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/POH.bdf                ;
+; rom.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/rom.hex                ;
+; ram.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/ram.hex                ;
+; ALU.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/ALU.bdf                ;
+; lpm_mux0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_mux0.tdf           ;
+; lpm_mux.inc                      ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_mux.inc              ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_mux.tdf              ;
+; db/mux_mpc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/mux_mpc.tdf         ;
+; lpm_mux3.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_mux3.tdf           ;
+; db/mux_unc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/mux_unc.tdf         ;
+; lpm_decode1.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_decode1.tdf        ;
+; lpm_decode.inc                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_decode.inc           ;
+; lpm_decode.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_decode.tdf           ;
+; lpm_compare.inc                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_compare.inc          ;
+; db/decode_u7f.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/decode_u7f.tdf      ;
+; lpm_dff0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_dff0.tdf           ;
+; lpm_ff.inc                       ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_ff.inc               ;
+; lpm_ff.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_ff.tdf               ;
+; lpm_decode2.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_decode2.tdf        ;
+; db/decode_e9f.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/decode_e9f.tdf      ;
+; lpm_counter0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_counter0.tdf       ;
+; lpm_counter.inc                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_counter.inc          ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_counter.tdf          ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_add_sub.inc          ;
+; db/cntr_qlh.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/cntr_qlh.tdf        ;
+; lpm_counter1.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_counter1.tdf       ;
+; db/cntr_pki.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/cntr_pki.tdf        ;
+; lpm_add_sub3.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_add_sub3.tdf       ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_add_sub.tdf          ;
+; db/add_sub_elh.tdf               ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/add_sub_elh.tdf     ;
+; lpm_dff1.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_dff1.tdf           ;
+; lpm_mux1.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_mux1.tdf           ;
+; db/mux_qnc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/mux_qnc.tdf         ;
+; lpm_bustri1.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_bustri1.tdf        ;
+; lpm_bustri.inc                   ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_bustri.inc           ;
+; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_bustri.tdf           ;
+; lpm_ram_dq0.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_ram_dq0.tdf        ;
+; altsyncram.inc                   ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/altsyncram.inc           ;
+; altsyncram.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/altsyncram.tdf           ;
+; db/altsyncram_4ba1.tdf           ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/altsyncram_4ba1.tdf ;
+; lpm_rom0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_rom0.tdf           ;
+; db/altsyncram_os61.tdf           ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/altsyncram_os61.tdf ;
+; lpm_mux2.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_mux2.tdf           ;
+; db/mux_cpc.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/mux_cpc.tdf         ;
+; lpm_compare0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_compare0.tdf       ;
+; lpm_compare.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_compare.tdf          ;
+; db/cmpr_ahi.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/cmpr_ahi.tdf        ;
+; lpm_clshift0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_clshift0.tdf       ;
+; lpm_clshift.inc                  ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_clshift.inc          ;
+; lpm_clshift.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_clshift.tdf          ;
+; db/lpm_clshift_ehc.tdf           ; yes             ; Auto-Generated Megafunction           ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/db/lpm_clshift_ehc.tdf ;
+; lpm_bustri2.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_bustri2.tdf        ;
+; lpm_or0.tdf                      ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_or0.tdf            ;
+; lpm_or.inc                       ; yes             ; Auto-Found AHDL File                  ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_or.inc               ;
+; lpm_or.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/labs/quartus/libraries/megafunctions/lpm_or.tdf               ;
+; lpm_decode0.tdf                  ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Татьяна/Desktop/5_Sem/СиФОВМ/lab4-5/lab445/lpm_decode0.tdf        ;
++----------------------------------+-----------------+---------------------------------------+----------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------+
@@ -1362,7 +1362,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri Dec 01 12:58:41 2023
+    Info: Processing started: Mon Jan 15 18:44:17 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4 -c lab4
 Info: Found 1 design units, including 1 entities, in source file device_control.bdf
     Info: Found entity 1: device_control
@@ -1732,8 +1732,8 @@ Info: Implemented 471 device resources after synthesis - the final resource coun
     Info: Implemented 20 RAM segments
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 125 warnings
     Info: Peak virtual memory: 243 megabytes
-    Info: Processing ended: Fri Dec 01 12:58:49 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Processing ended: Mon Jan 15 18:44:26 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:04
 
 

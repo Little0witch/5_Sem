@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for lab3_1_1
-Thu Dec 07 13:26:06 2023
+Mon Jan 15 18:42:25 2024
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -1423,7 +1423,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Thu Dec 07 13:26:05 2023
+    Info: Processing started: Mon Jan 15 18:42:25 2024
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off lab3_1_1 -c lab3_1_1 --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "read" is an undefined clock
@@ -1618,8 +1618,8 @@ Info: th for register "buff:inst12|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0
         Info: Total interconnect delay = 4.938 ns ( 79.98 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 193 megabytes
-    Info: Processing ended: Thu Dec 07 13:26:06 2023
+    Info: Processing ended: Mon Jan 15 18:42:26 2024
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 
