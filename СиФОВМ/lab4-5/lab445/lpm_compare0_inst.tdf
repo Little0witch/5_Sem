@@ -1,0 +1,19 @@
+(
+	AeB_sig,
+	AgB_sig,
+	AgeB_sig,
+	AlB_sig,
+	AleB_sig,
+	AneB_sig
+) = lpm_compare0	(
+	.dataa[] = dataa_sig[],
+	.datab[] = datab_sig[]
+)
+RETURNS (
+	.AeB,
+	.AgB,
+	.AgeB,
+	.AlB,
+	.AleB,
+	.AneB
+);

@@ -1,0 +1,9 @@
+(
+	result_sig[]
+) = lpm_clshift0	(
+	.data[] = data_sig[],
+	.distance[] = distance_sig[]
+)
+RETURNS (
+	.result[]
+);

@@ -1,0 +1,8 @@
+(
+	result_sig[]
+) = lpm_add_sub2	(
+	.dataa[] = dataa_sig[]
+)
+RETURNS (
+	.result[]
+);
